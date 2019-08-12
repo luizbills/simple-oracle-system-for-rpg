@@ -40,7 +40,9 @@ Jogue 2 vezes o seu D6.
 - O primeiro resultado vai ser um valor da **Tabela 4** (logo abaixo);
 - O segundo resultado vai ser um valor da **Tabela 5**.
 
-Por exemplo, joguei duas vezes o dado e tirei 4 e 2. Nas tabelas os valores são, respectivamente, esses: Examinar/Investigar e Montanhas. Agora, você joga outras duas vezes o D6 para escolher um valor na **Tabela 6**. Por exemplo, tirando 5 e 6 o valor será: Carne. Assim, vou ter 3 palavras-chave para eu escolher qual será minha missão: *Examinar/Investigar, Montanhas e Carne*. Nesse caso, eu poderia dizer que minha missão é: “**Investigar** o estranho caso das **carnes** que estão desaparecendo em um vilarejo nas **montanhas**.” Se preferir, você pode usar a **Tabela 7** no lugar da Tabela 6 ou então usar as duas juntas. Você também pode escolher ter mais de uma missão, nesse caso repita este processo quantas vezes quiser.
+Por exemplo, joguei duas vezes o dado e tirei 4 e 2. Nas tabelas os valores são, respectivamente, esses: *Examinar/Investigar e Montanhas*. Agora, você joga outras duas vezes o D6 para escolher um valor na **Tabela 6**. Por exemplo, tirando 4 e 6 o valor será: *Carne*. Assim, vou ter 3 palavras-chave para eu escolher qual será minha missão: *Examinar/Investigar, Montanhas e Carne*. Nesse caso, eu poderia dizer que minha missão é: *“**Investigar** o estranho caso das **carnes** que estão desaparecendo em um vilarejo nas **montanhas**”*.
+
+Se preferir, você pode usar a **Tabela 7** no lugar da Tabela 6 ou então usar as duas juntas. Você também pode escolher ter mais de uma missão, nesse caso repita este processo quantas vezes quiser.
 
 ### Obtendo respostas
 
