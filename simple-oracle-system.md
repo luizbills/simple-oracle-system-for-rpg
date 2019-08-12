@@ -91,7 +91,7 @@ Use esta tabela para criar uma “ramificação” no rumo da sua aventura.
 
 - **encontros** podem significar a aparição de um ou vários indivíduos (ou fenômenos).
     - **ameaçador**: algo que te ameaça, como um animal selvagem ou outras criaturas hostis.
-    - **comum**: algo ou alguém que é comum de encontrar no lugar que você está.
+    - **comum**: algo ou alguém que é comum de encontrar no lugar que você está, que pode ou não ser uma ameaça para você (decida por conta própria ou use a **Tabela 3**). 
     - **neutro**: algo que te desperta curiosidade. Por exemplo, um estranho encapuzado entrando na taverna.
 - **Avanço na história**: sua aventura avança, resolvendo assim a cena atual. Por exemplo, se você estava viajando você pode imaginar que sua viagem foi totalmente segura e que você chegou ao destino.
 - **Retrocesso na história**: algo de uma cena anterior volta ser relevante na sua aventura. Por exemplo, você volta a ver o mesmo estranho encapuzado que viu entrando na taverna.
