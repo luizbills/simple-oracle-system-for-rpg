@@ -10,16 +10,18 @@
             padding: 0!important;
             margin: 0!important;
         }
-        p {
-            margin: 0 0 0.5rem 0;
+       	p, ul, ol {
+            margin: 0 0 .5rem 0;
         }
-        ul, ol {
-            margin: 0;
+        h1, h2, h3, h4, h5, h6 {
+            margin-top: 2rem;
         }
     }
 </style>
 
 # S.O.S. - *Simple Oracle System*
+
+Criado por **Luiz Paulo “Bills”** (https://luizpb.com)
 
 ## Porque jogar RPG sozinho?
 
@@ -27,7 +29,7 @@ Motivos nunca vão faltar: seu mestre pode ficar indisponível, você pode testa
 
 ## Jogando RPG sozinho
 
-Para jogar RPG sozinho (ou *solo*), sem ter que seguir uma aventura pronta, você pode usar tabelas que **“simulem”** as escolhas do *narrador*. Essas tabelas são chamadas de **Oráculos**. Abaixo você vai encontrar vários *oráculos* que vão te ajudar com essa *simulação*. Se você sentir que está faltando algo, você pode (e deve) criar suas próprias tabelas.
+Para jogar RPG sozinho (ou *solo*), sem ter que seguir uma aventura pronta, você pode usar tabelas que **“simulem”** as escolhas do *narrador*. Essas tabelas são chamadas de **Oráculos**. Abaixo você vai encontrar vários *oráculos* para te auxiliar.
 
 Para fazer as simulações você vai precisar apenas de 1D6 (um dado de seis lados). Já os testes e combates vão ser feitos usando o sistema de RPG que você quiser. Ou então, você também pode “simular” as suas jogadas com as tabelas (caso não queira usar um sistema).
 
@@ -38,9 +40,7 @@ Jogue 2 vezes o seu D6.
 - O primeiro resultado vai ser um valor da **Tabela 4** (logo abaixo);
 - O segundo resultado vai ser um valor da **Tabela 5**.
 
-Por exemplo, joguei duas vezes o dado e tirei 4 e 2. Nas tabelas os valores são, respectivamente, esses: Examinar/Investigar e Montanhas.
-
-Agora você joga mais duas vezes o D6 para escolher um valor na **Tabela 6**. Por exemplo, tirando 5 e 6 o valor será: Carne. Assim, vou ter 3 palavras-chave para eu escolher qual será minha missão: *Examinar/Investigar, Montanhas e Carne*. Nesse caso, eu poderia dizer que minha missão é: “**Investigar** o estranho caso das **carnes** que estão desaparecendo em um vilarejo nas **montanhas**.”
+Por exemplo, joguei duas vezes o dado e tirei 4 e 2. Nas tabelas os valores são, respectivamente, esses: Examinar/Investigar e Montanhas. Agora, você joga outras duas vezes o D6 para escolher um valor na **Tabela 6**. Por exemplo, tirando 5 e 6 o valor será: Carne. Assim, vou ter 3 palavras-chave para eu escolher qual será minha missão: *Examinar/Investigar, Montanhas e Carne*. Nesse caso, eu poderia dizer que minha missão é: “**Investigar** o estranho caso das **carnes** que estão desaparecendo em um vilarejo nas **montanhas**.” Se preferir, você pode usar a **Tabela 7** no lugar da Tabela 6 ou então usar as duas juntas. Você também pode escolher ter mais de uma missão, nesse caso repita este processo quantas vezes quiser.
 
 ### Obtendo respostas
 
@@ -61,7 +61,7 @@ Abaixo deixo algumas dicas para te ajudar a evitar pequenas coisas que podem te 
 <div style="page-break-after: always;"></div>
 ## Tabelas
 
-### Tabela 1 - Respostas Simples
+### Tabela 1 - Respostas simples
 
 Use esta tabela para obter respostas para perguntas que podem ser respondidas com “sim” ou com “não”. Por exemplo, você pergunta: *meu aventureiro vai começar em uma taverna?* Jogue 1D6 e descubra.
 
@@ -139,23 +139,16 @@ Use esta tabela para saber o lugar que algo se encontra ou para onde você deve 
 Para obter um resultado nessa tabela você joga duas vezes o seu D6. A primeira vez vai determinar qual coluna e a segunda vez vai determinar qual linha. Por exemplo, joguei D6 uma vez e tirei 3. A 3ª coluna tem: arma comum, arma exótica, luvas, etc... Jogo outra vez e tiro 6 e vejo qual é o 6º objeto na 3ª coluna. Meu resultado então foi “cinto”.
 
 
-|  2D  |         1          |      2      |       3       |      4      |       5       |        6        |
-| :--: | :----------------: | :---------: | :-----------: | :---------: | :-----------: | :-------------: |
-|  1   |       Esfera       |    Anel     |  Arma Comum   |   Chifre    |     Poção     |      Pedra      |
-|  2   | Retângulo/Quadrado |    Gema     | Arma Exótica  | Garra/Unha  | Fruta/Verdura |     Madeira     |
-|  3   |      Circulo       |    Colar    | Luvas/Manopla | Presa/Dente |    Semente    |      Metal      |
-|  4   |      Estrela       |   Brinco    |  Capa/Chapéu  |    Olho     |     Erva      |    Cerâmica     |
-|  5   |     Triângulo      |  Pulseira   | Óculos/Luneta |  Mão/Pata   |   Pão/Bolo    |  Vidro/Cristal  |
-|  6   |        Cone        | Tiara/Coroa |     Cinto     |    Cauda    |     Carne     | Plástico/Tecido |
+|  2D  |         1          |      2      |       3       |       4       |      5      |        6        |
+| :--: | :----------------: | :---------: | :-----------: | :-----------: | :---------: | :-------------: |
+|  1   |       Esfera       |    Anel     |  Arma Comum   |     Poção     |   Chifre    |      Pedra      |
+|  2   | Retângulo/Quadrado |    Gema     | Arma Exótica  | Fruta/Verdura | Garra/Unha  |     Madeira     |
+|  3   |      Circulo       |    Colar    | Luvas/Manopla |    Semente    | Presa/Dente |      Metal      |
+|  4   |      Estrela       |   Brinco    |  Capa/Chapéu  |     Erva      |    Olho     |    Cerâmica     |
+|  5   |     Triângulo      |  Pulseira   | Óculos/Luneta |   Pão/Bolo    |  Mão/Pata   |  Vidro/Cristal  |
+|  6   |        Cone        | Tiara/Coroa |     Cinto     |     Carne     |    Cauda    | Plástico/Tecido |
 
-Quando você estiver interessado em obter resultados apenas de uma coluna, jogue apenas 1D6 para escolher a linha. Por exemplo, eu quero descobrir qual a comida favorita do meu personagem. Eu jogo 1D6 e escolho uma linha da 5ª coluna. 
-
-<div style="page-break-after: always;"></div>
 ### Tabela 7 - Criaturas
-
-Para obter um resultado dessa tabela, você também vai jogar duas vezes o seu D6. Ou apenas uma vez se você quiser resultados de apenas uma coluna específica.
-
-Esta tabela pode ser usada para saber que tipo de criatura surgiu, mas também pode ser usada para determinar outras coisas. Por exemplo, você encontra um amuleto com um simbolo que “parece” um inseto. Para saber o que é exatamente aquele simbolo, você joga 1D6 e escolhe uma linha na 4ª coluna.
 
 | 2D   | 1               | 2             | 3        | 4         | 5       | 6         |
 | ---- | --------------- | ------------- | -------- | --------- | ------- | --------- |
@@ -165,3 +158,37 @@ Esta tabela pode ser usada para saber que tipo de criatura surgiu, mas também p
 | 4    | Esqueleto/Zumbi | Gigante       | Gnomo    | Centopeia | Cobra   | Duende    |
 | 5    | Naga            | Hidra         | Sereia   | Lagosta   | Peixe   | Elemental |
 | 6    | Ogro            | Vampiro       | Centauro | Borboleta | Javali  | Sátiro    |
+
+Essas tabelas maiores possuem 36 resultados possíveis e suas colunas estão organizadas com valores que pertencem a um mesmo grupo. Repare para você ver: na tabela de criaturas, a 1ª coluna são criaturas não tão poderosas, a 2ª são criaturas geralmente perigosas, a 3ª são apenas raças, a 4ª são animais pequenos, a 5ª são animais médios e a 6ª são criaturas exóticas. Repare que a tabela de itens também vai estar organizada em grupos. Assim, quando você estiver interessado em obter resultados apenas de uma coluna, jogue apenas 1D6 para escolher a linha. Por exemplo, se você achou um escudo com um desenho de um animal, apenas jogue 1D6 e escolha uma linha da 5ª coluna da tabela de criaturas. Assim, você decidirá qual animal que está no escudo. Você também pode fazer o mesmo processo com a tabela de objetos. Por exemplo, se você quiser saber a comida favorita do seu personagem, jogue 1D6 para escolher uma linha da 4ª coluna na tabela de objetos.
+
+Ainda falando das criaturas, não descarte uma criatura por ela ser muito poderosa ou ser muito fraca para sua aventura. Por exemplo, o *Goblin* pode na verdade ser o “Rei dos Goblins”, um feiticeiro poderoso, e o *Dragão* pode ser apenas um filhote (ou talvez até mesmo só um ovo). Assim, você consegue incluir qualquer criatura na sua aventura.
+
+Você ainda pode usar essas “tabelonas” para gerar vários resultados, ao invés de apenas um. Assim, você pode gerar combinações de criaturas ou grupos mistos.
+
+## Outros cenários
+
+A *tabela de criaturas* pode fazer alguns pensar que o S.O.S é somente para mundos de *fantasia*. Mas isso não precisa ser verdade. Você pode adaptar facilmente as tabelas para que você possa usa-las em qualquer cenário que você quiser. Aliás, algumas tabelas já foram feitas para serem genéricas. Na tabela de objetos, por exemplo, tem um resultado que poder ser *Tecido ou Plástico* (plástico não costuma existir em mundos medievais, então usa-se tecido). Adiante dou dicas de como adaptar as outras tabelas.
+
+### Lugares
+
+Em alguns cenários talvez não seja legal você ficar indo para florestas ou montanhas. Talvez simplesmente não tenha nada nesses lugares ou nem são mais de fácil acesso. Por exemplo, em cenários *cyberpunk* geralmente não existe nada além de deserto fora das cidades.
+
+Então, ao invés de usar a tabela para decidir um lugar, use-a para decidir uma região da cidade. Por exemplo, ao invés de *Praia* será **Esgoto**, *Montanhas* pode ser o **Bairro Oriental**, *Floresta* pode ser um **Shopping**, etc.
+
+### Criaturas
+
+A tabela de criaturas está cheia de criaturas que podem não existir em muitos cenários. Para substituir aquelas criaturas, eu recomendo você criar uma tabela simples (com apenas 6 possibilidades), se você não quiser pensar em 36 elementos do seu cenário. Por exemplo, se o seu cenário for “moderno”, você pode criar uma tabela com 6 profissões: cientista, engenheiro, médico, etc. Assim, suas missões serão algo como *investigar* (ou outro verbo) uma pessoa (ou várias) daquelas profissões.
+
+Mas claro, nada vai te proibir de ser um caçador de criaturas sobrenaturais em mundo moderno. Já imaginou que loucura seria uma Hidra no centro de Belo Horizonte?
+
+### Criando mais tabelas
+
+Se você sentir que está faltando algo, você pode (e deve) criar suas próprias tabelas. Por exemplo, se você quiser gerar nomes aleatórios, crie uma “tabelona” igual a tabela de objetos, porém com 36 nomes. E se ainda estiver inspirado crie outra com 36 sobrenomes, assim você pode gerar milhares de nomes diferentes.
+
+## Compartilhe
+
+Se você viveu alguma aventura bem legal ou teve uma ideia de tabela bem legal, compartilhe com outros jogadores de RPG Solo. Venha participar do nosso grupo no facebook: https://www.facebook.com/groups/187588152056870/ 
+
+## Licença
+
+Este material está licenciado com uma Licença [Creative Commons Atribuição-CompartilhaIgual 4.0 Internacional](http://creativecommons.org/licenses/by-sa/4.0/).
