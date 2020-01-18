@@ -1,0 +1,760 @@
+<!doctype html>
+<html>
+<head>
+<meta charset='UTF-8'><meta name='viewport' content='width=device-width initial-scale=1'>
+<title>index</title><link href='https://fonts.loli.net/css?family=PT+Serif:400,400italic,700,700italic&subset=latin,cyrillic-ext,cyrillic,latin-ext' rel='stylesheet' type='text/css' /><style type='text/css'>html {overflow-x: initial !important;}:root { --bg-color:#ffffff; --text-color:#333333; --select-text-bg-color:#B5D6FC; --select-text-font-color:auto; --monospace:"Lucida Console",Consolas,"Courier",monospace; }
+html { font-size: 14px; background-color: var(--bg-color); color: var(--text-color); font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; -webkit-font-smoothing: antialiased; }
+body { margin: 0px; padding: 0px; height: auto; bottom: 0px; top: 0px; left: 0px; right: 0px; font-size: 1rem; line-height: 1.42857; overflow-x: hidden; background: inherit; tab-size: 4; }
+iframe { margin: auto; }
+a.url { word-break: break-all; }
+a:active, a:hover { outline: 0px; }
+.in-text-selection, ::selection { text-shadow: none; background: var(--select-text-bg-color); color: var(--select-text-font-color); }
+#write { margin: 0px auto; height: auto; width: inherit; word-break: normal; overflow-wrap: break-word; position: relative; white-space: normal; overflow-x: visible; padding-top: 40px; }
+#write.first-line-indent p { text-indent: 2em; }
+#write.first-line-indent li p, #write.first-line-indent p * { text-indent: 0px; }
+#write.first-line-indent li { margin-left: 2em; }
+.for-image #write { padding-left: 8px; padding-right: 8px; }
+body.typora-export { padding-left: 30px; padding-right: 30px; }
+.typora-export .footnote-line, .typora-export li, .typora-export p { white-space: pre-wrap; }
+@media screen and (max-width: 500px) {
+  body.typora-export { padding-left: 0px; padding-right: 0px; }
+  #write { padding-left: 20px; padding-right: 20px; }
+  .CodeMirror-sizer { margin-left: 0px !important; }
+  .CodeMirror-gutters { display: none !important; }
+}
+#write li > figure:last-child { margin-bottom: 0.5rem; }
+#write ol, #write ul { position: relative; }
+img { max-width: 100%; vertical-align: middle; }
+button, input, select, textarea { color: inherit; font: inherit; }
+input[type="checkbox"], input[type="radio"] { line-height: normal; padding: 0px; }
+*, ::after, ::before { box-sizing: border-box; }
+#write h1, #write h2, #write h3, #write h4, #write h5, #write h6, #write p, #write pre { width: inherit; }
+#write h1, #write h2, #write h3, #write h4, #write h5, #write h6, #write p { position: relative; }
+p { line-height: inherit; }
+h1, h2, h3, h4, h5, h6 { break-after: avoid-page; break-inside: avoid; orphans: 2; }
+p { orphans: 4; }
+h1 { font-size: 2rem; }
+h2 { font-size: 1.8rem; }
+h3 { font-size: 1.6rem; }
+h4 { font-size: 1.4rem; }
+h5 { font-size: 1.2rem; }
+h6 { font-size: 1rem; }
+.md-math-block, .md-rawblock, h1, h2, h3, h4, h5, h6, p { margin-top: 1rem; margin-bottom: 1rem; }
+.hidden { display: none; }
+.md-blockmeta { color: rgb(204, 204, 204); font-weight: 700; font-style: italic; }
+a { cursor: pointer; }
+sup.md-footnote { padding: 2px 4px; background-color: rgba(238, 238, 238, 0.7); color: rgb(85, 85, 85); border-radius: 4px; cursor: pointer; }
+sup.md-footnote a, sup.md-footnote a:hover { color: inherit; text-transform: inherit; text-decoration: inherit; }
+#write input[type="checkbox"] { cursor: pointer; width: inherit; height: inherit; }
+figure { overflow-x: auto; margin: 1.2em 0px; max-width: calc(100% + 16px); padding: 0px; }
+figure > table { margin: 0px !important; }
+tr { break-inside: avoid; break-after: auto; }
+thead { display: table-header-group; }
+table { border-collapse: collapse; border-spacing: 0px; width: 100%; overflow: auto; break-inside: auto; text-align: left; }
+table.md-table td { min-width: 32px; }
+.CodeMirror-gutters { border-right: 0px; background-color: inherit; }
+.CodeMirror-linenumber { user-select: none; }
+.CodeMirror { text-align: left; }
+.CodeMirror-placeholder { opacity: 0.3; }
+.CodeMirror pre { padding: 0px 4px; }
+.CodeMirror-lines { padding: 0px; }
+div.hr:focus { cursor: none; }
+#write pre { white-space: pre-wrap; }
+#write.fences-no-line-wrapping pre { white-space: pre; }
+#write pre.ty-contain-cm { white-space: normal; }
+.CodeMirror-gutters { margin-right: 4px; }
+.md-fences { font-size: 0.9rem; display: block; break-inside: avoid; text-align: left; overflow: visible; white-space: pre; background: inherit; position: relative !important; }
+.md-diagram-panel { width: 100%; margin-top: 10px; text-align: center; padding-top: 0px; padding-bottom: 8px; overflow-x: auto; }
+#write .md-fences.mock-cm { white-space: pre-wrap; }
+.md-fences.md-fences-with-lineno { padding-left: 0px; }
+#write.fences-no-line-wrapping .md-fences.mock-cm { white-space: pre; overflow-x: auto; }
+.md-fences.mock-cm.md-fences-with-lineno { padding-left: 8px; }
+.CodeMirror-line, twitterwidget { break-inside: avoid; }
+.footnotes { opacity: 0.8; font-size: 0.9rem; margin-top: 1em; margin-bottom: 1em; }
+.footnotes + .footnotes { margin-top: 0px; }
+.md-reset { margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: top; background: 0px 0px; text-decoration: none; text-shadow: none; float: none; position: static; width: auto; height: auto; white-space: nowrap; cursor: inherit; -webkit-tap-highlight-color: transparent; line-height: normal; font-weight: 400; text-align: left; box-sizing: content-box; direction: ltr; }
+li div { padding-top: 0px; }
+blockquote { margin: 1rem 0px; }
+li .mathjax-block, li p { margin: 0.5rem 0px; }
+li { margin: 0px; position: relative; }
+blockquote > :last-child { margin-bottom: 0px; }
+blockquote > :first-child, li > :first-child { margin-top: 0px; }
+.footnotes-area { color: rgb(136, 136, 136); margin-top: 0.714rem; padding-bottom: 0.143rem; white-space: normal; }
+#write .footnote-line { white-space: pre-wrap; }
+@media print {
+  body, html { border: 1px solid transparent; height: 99%; break-after: avoid; break-before: avoid; }
+  #write { margin-top: 0px; padding-top: 0px; border-color: transparent !important; }
+  .typora-export * { -webkit-print-color-adjust: exact; }
+  html.blink-to-pdf { font-size: 13px; }
+  .typora-export #write { padding-left: 32px; padding-right: 32px; padding-bottom: 0px; break-after: avoid; }
+  .typora-export #write::after { height: 0px; }
+}
+.footnote-line { margin-top: 0.714em; font-size: 0.7em; }
+a img, img a { cursor: pointer; }
+pre.md-meta-block { font-size: 0.8rem; min-height: 0.8rem; white-space: pre-wrap; background: rgb(204, 204, 204); display: block; overflow-x: hidden; }
+p > .md-image:only-child:not(.md-img-error) img, p > img:only-child { display: block; margin: auto; }
+p > .md-image:only-child { display: inline-block; width: 100%; }
+#write .MathJax_Display { margin: 0.8em 0px 0px; }
+.md-math-block { width: 100%; }
+.md-math-block:not(:empty)::after { display: none; }
+[contenteditable="true"]:active, [contenteditable="true"]:focus { outline: 0px; box-shadow: none; }
+.md-task-list-item { position: relative; list-style-type: none; }
+.task-list-item.md-task-list-item { padding-left: 0px; }
+.md-task-list-item > input { position: absolute; top: 0px; left: 0px; margin-left: -1.2em; margin-top: calc(1em - 10px); border: none; }
+.math { font-size: 1rem; }
+.md-toc { min-height: 3.58rem; position: relative; font-size: 0.9rem; border-radius: 10px; }
+.md-toc-content { position: relative; margin-left: 0px; }
+.md-toc-content::after, .md-toc::after { display: none; }
+.md-toc-item { display: block; color: rgb(65, 131, 196); }
+.md-toc-item a { text-decoration: none; }
+.md-toc-inner:hover { text-decoration: underline; }
+.md-toc-inner { display: inline-block; cursor: pointer; }
+.md-toc-h1 .md-toc-inner { margin-left: 0px; font-weight: 700; }
+.md-toc-h2 .md-toc-inner { margin-left: 2em; }
+.md-toc-h3 .md-toc-inner { margin-left: 4em; }
+.md-toc-h4 .md-toc-inner { margin-left: 6em; }
+.md-toc-h5 .md-toc-inner { margin-left: 8em; }
+.md-toc-h6 .md-toc-inner { margin-left: 10em; }
+@media screen and (max-width: 48em) {
+  .md-toc-h3 .md-toc-inner { margin-left: 3.5em; }
+  .md-toc-h4 .md-toc-inner { margin-left: 5em; }
+  .md-toc-h5 .md-toc-inner { margin-left: 6.5em; }
+  .md-toc-h6 .md-toc-inner { margin-left: 8em; }
+}
+a.md-toc-inner { font-size: inherit; font-style: inherit; font-weight: inherit; line-height: inherit; }
+.footnote-line a:not(.reversefootnote) { color: inherit; }
+.md-attr { display: none; }
+.md-fn-count::after { content: "."; }
+code, pre, samp, tt { font-family: var(--monospace); }
+kbd { margin: 0px 0.1em; padding: 0.1em 0.6em; font-size: 0.8em; color: rgb(36, 39, 41); background: rgb(255, 255, 255); border: 1px solid rgb(173, 179, 185); border-radius: 3px; box-shadow: rgba(12, 13, 14, 0.2) 0px 1px 0px, rgb(255, 255, 255) 0px 0px 0px 2px inset; white-space: nowrap; vertical-align: middle; }
+.md-comment { color: rgb(162, 127, 3); opacity: 0.8; font-family: var(--monospace); }
+code { text-align: left; vertical-align: initial; }
+a.md-print-anchor { white-space: pre !important; border-width: initial !important; border-style: none !important; border-color: initial !important; display: inline-block !important; position: absolute !important; width: 1px !important; right: 0px !important; outline: 0px !important; background: 0px 0px !important; text-decoration: initial !important; text-shadow: initial !important; }
+.md-inline-math .MathJax_SVG .noError { display: none !important; }
+.html-for-mac .inline-math-svg .MathJax_SVG { vertical-align: 0.2px; }
+.md-math-block .MathJax_SVG_Display { text-align: center; margin: 0px; position: relative; text-indent: 0px; max-width: none; max-height: none; min-height: 0px; min-width: 100%; width: auto; overflow-y: hidden; display: block !important; }
+.MathJax_SVG_Display, .md-inline-math .MathJax_SVG_Display { width: auto; margin: inherit; display: inline-block !important; }
+.MathJax_SVG .MJX-monospace { font-family: var(--monospace); }
+.MathJax_SVG .MJX-sans-serif { font-family: sans-serif; }
+.MathJax_SVG { display: inline; font-style: normal; font-weight: 400; line-height: normal; zoom: 90%; text-indent: 0px; text-align: left; text-transform: none; letter-spacing: normal; word-spacing: normal; overflow-wrap: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0px; min-height: 0px; border: 0px; padding: 0px; margin: 0px; }
+.MathJax_SVG * { transition: none 0s ease 0s; }
+.MathJax_SVG_Display svg { vertical-align: middle !important; margin-bottom: 0px !important; margin-top: 0px !important; }
+.os-windows.monocolor-emoji .md-emoji { font-family: "Segoe UI Symbol", sans-serif; }
+.md-diagram-panel > svg { max-width: 100%; }
+[lang="mermaid"] svg, [lang="flow"] svg { max-width: 100%; height: auto; }
+[lang="mermaid"] .node text { font-size: 1rem; }
+table tr th { border-bottom: 0px; }
+video { max-width: 100%; display: block; margin: 0px auto; }
+iframe { max-width: 100%; width: 100%; border: none; }
+.highlight td, .highlight tr { border: 0px; }
+svg[id^="mermaidChart"] { line-height: 1em; }
+mark { background: rgb(255, 255, 0); color: rgb(0, 0, 0); }
+.md-html-inline .md-plain, .md-html-inline strong, mark .md-inline-math, mark strong { color: inherit; }
+mark .md-meta { color: rgb(0, 0, 0); opacity: 0.3 !important; }
+
+
+/* meyer reset -- http://meyerweb.com/eric/tools/css/reset/ , v2.0 | 20110126 | License: none (public domain) */
+
+@include-when-export url(https://fonts.loli.net/css?family=PT+Serif:400,400italic,700,700italic&subset=latin,cyrillic-ext,cyrillic,latin-ext);
+
+/* =========== */
+
+:root {
+	--active-file-bg-color: #dadada;
+	--active-file-bg-color: rgba(32, 43, 51, 0.63);
+	--active-file-text-color: white;
+	--bg-color: #f3f2ee;
+	--text-color: #1f0909;
+	--control-text-color: #444;
+	--rawblock-edit-panel-bd: #e5e5e5;
+
+	--select-text-bg-color: rgba(32, 43, 51, 0.63);
+  --select-text-font-color: white;
+}
+
+pre {
+	--select-text-bg-color: #36284e;
+	--select-text-font-color: #fff;
+}
+
+html {
+	font-size: 16px;
+}
+
+html, body {
+	background-color: #f3f2ee;
+	font-family: "PT Serif", 'Times New Roman', Times, serif;
+	color: #1f0909;
+	line-height: 1.5em;
+}
+
+/*#write {
+	overflow-x: auto;
+    max-width: initial;
+	padding-left: calc(50% - 17em);
+    padding-right: calc(50% - 17em);
+}
+
+@media (max-width: 36em) {
+ 	#write {
+ 		padding-left: 1em;
+    	padding-right: 1em;
+ 	}
+}*/
+
+#write {
+	max-width: 40em;
+}
+
+ol li {
+	list-style-type: decimal;
+	list-style-position: outside;
+}
+ul li {
+	list-style-type: disc;
+	list-style-position: outside;
+}
+
+ol,
+ul {
+	list-style: none;
+}
+
+blockquote,
+q {
+	quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* styles */
+
+/* ====== */
+
+/* headings */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: bold;
+}
+h1 {
+	font-size: 1.875em;
+	/*30 / 16*/
+	line-height: 1.6em;
+	/* 48 / 30*/
+	margin-top: 2em;
+}
+h2,
+h3 {
+	font-size: 1.3125em;
+	/*21 / 16*/
+	line-height: 1.15;
+	/*24 / 21*/
+	margin-top: 2.285714em;
+	/*48 / 21*/
+	margin-bottom: 1.15em;
+	/*24 / 21*/
+}
+h3 {
+	font-weight: normal;
+}
+h4 {
+	font-size: 1.125em;
+	/*18 / 16*/
+	margin-top: 2.67em;
+	/*48 / 18*/
+}
+h5,
+h6 {
+	font-size: 1em;
+	/*16*/
+}
+h1 {
+	border-bottom: 1px solid;
+	margin-bottom: 1.875em;
+	padding-bottom: 0.8125em;
+}
+/* links */
+
+a {
+	text-decoration: none;
+	color: #065588;
+}
+a:hover,
+a:active {
+	text-decoration: underline;
+}
+/* block spacing */
+
+p,
+blockquote,
+.md-fences {
+	margin-bottom: 1.5em;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin-bottom: 1.5em;
+}
+/* blockquote */
+
+blockquote {
+	font-style: italic;
+	border-left: 5px solid;
+	margin-left: 2em;
+	padding-left: 1em;
+}
+/* lists */
+
+ul,
+ol {
+	margin: 0 0 1.5em 1.5em;
+}
+/* tables */
+.md-meta,.md-before, .md-after {
+	color:#999;
+}
+
+table {
+	margin-bottom: 1.5em;
+	/*24 / 16*/
+	font-size: 1em;
+	/* width: 100%; */
+}
+thead th,
+tfoot th {
+	padding: .25em .25em .25em .4em;
+	text-transform: uppercase;
+}
+th {
+	text-align: left;
+}
+td {
+	vertical-align: top;
+	padding: .25em .25em .25em .4em;
+}
+
+code,
+.md-fences {
+	background-color: #dadada;
+}
+
+code {
+	padding-left: 2px;
+	padding-right: 2px;
+}
+
+.md-fences {
+	margin-left: 2em;
+	margin-bottom: 3em;
+	padding-left: 1ch;
+	padding-right: 1ch;
+}
+
+pre,
+code,
+tt {
+	font-size: .875em;
+	line-height: 1.714285em;
+}
+/* some fixes */
+
+h1 {
+	line-height: 1.3em;
+	font-weight: normal;
+	margin-bottom: 0.5em;
+}
+
+p + ul,
+p + ol{
+	margin-top: .5em;
+}
+
+h3 + ul,
+h4 + ul,
+h5 + ul,
+h6 + ul,
+h3 + ol,
+h4 + ol,
+h5 + ol,
+h6 + ol {
+	margin-top: .5em;
+}
+
+li > ul,
+li > ol {
+	margin-top: inherit;
+	margin-bottom: 0;
+}
+
+li ol>li {
+	list-style-type: lower-alpha;
+}
+
+li li ol>li{
+	list-style-type: lower-roman;
+}
+
+h2,
+h3 {
+	margin-bottom: .75em;
+}
+hr {
+	border-top: none;
+	border-right: none;
+	border-bottom: 1px solid;
+	border-left: none;
+}
+h1 {
+	border-color: #c5c5c5;
+}
+blockquote {
+	border-color: #bababa;
+	color: #656565;
+}
+
+blockquote ul,
+blockquote ol {
+	margin-left:0;
+}
+
+.ty-table-edit {
+	background-color: transparent;
+}
+thead {
+	background-color: #dadada;
+}
+tr:nth-child(even) {
+	background: #e8e7e7;
+}
+hr {
+	border-color: #c5c5c5;
+}
+.task-list{
+	padding-left: 1rem;
+}
+
+.md-task-list-item {
+	padding-left: 1.5rem;
+	list-style-type: none;
+}
+
+.md-task-list-item > input:before {
+	content: '\221A';
+	display: inline-block;
+	width: 1.25rem;
+  	height: 1.6rem;
+	vertical-align: middle;
+	text-align: center;
+	color: #ddd;
+	background-color: #F3F2EE;
+}
+
+.md-task-list-item > input:checked:before,
+.md-task-list-item > input[checked]:before{
+	color: inherit;
+}
+
+#write pre.md-meta-block {
+	min-height: 1.875rem;
+	color: #555;
+	border: 0px;
+	background: transparent;
+	margin-top: -4px;
+	margin-left: 1em;
+	margin-top: 1em;
+}
+
+.md-image>.md-meta {
+	color: #9B5146;
+}
+
+.md-image>.md-meta{
+	font-family: Menlo, 'Ubuntu Mono', Consolas, 'Courier New', 'Microsoft Yahei', 'Hiragino Sans GB', 'WenQuanYi Micro Hei', serif;
+}
+
+
+#write>h3.md-focus:before{
+	left: -1.5rem;
+	color:#999;
+	border-color:#999;
+}
+#write>h4.md-focus:before{
+	left: -1.5rem;
+	top: .25rem;
+	color:#999;
+	border-color:#999;
+}
+#write>h5.md-focus:before{
+	left: -1.5rem;
+	top: .0.3125rem;
+	color:#999;
+	border-color:#999;
+}
+#write>h6.md-focus:before{
+	left: -1.5rem;
+	top: 0.3125rem;
+	color:#999;
+	border-color:#999;
+}
+
+.md-toc:focus .md-toc-content{
+	margin-top: 19px;
+}
+
+.md-toc-content:empty:before{
+	color: #065588;
+}
+.md-toc-item {
+	color: #065588;
+}
+#write div.md-toc-tooltip {
+	background-color: #f3f2ee;
+}
+
+#typora-sidebar {
+	background-color: #f3f2ee;
+	-webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.375);
+  	box-shadow: 0 6px 12px rgba(0, 0, 0, 0.375);
+}
+
+.pin-outline #typora-sidebar {
+	background: inherit;
+	box-shadow: none;
+	border-right: 1px dashed;
+}
+
+.pin-outline #typora-sidebar:hover .outline-title-wrapper {
+	border-left:1px dashed;
+}
+
+.outline-item:hover {
+  background-color: #dadada;
+  border-left: 28px solid #dadada;
+  border-right: 18px solid #dadada;
+}
+
+.typora-node .outline-item:hover {
+  	border-right: 28px solid #dadada;
+}
+
+.outline-expander:before {
+  content: "\f0da";
+  font-family: FontAwesome;
+  font-size:14px;
+  top: 1px;
+}
+
+.outline-expander:hover:before,
+.outline-item-open>.outline-item>.outline-expander:before {
+  content: "\f0d7";
+}
+
+.modal-content {
+	background-color: #f3f2ee;
+}
+
+.auto-suggest-container ul li {
+	list-style-type: none;
+}
+
+/** UI for electron */
+
+.megamenu-menu,
+#top-titlebar, #top-titlebar *,
+.megamenu-content {
+	background: #f3f2ee;
+	color: #1f0909;
+}
+
+.megamenu-menu-header {
+	border-bottom: 1px dashed #202B33;
+}
+
+.megamenu-menu {
+	box-shadow: none;
+	border-right: 1px dashed;
+}
+
+header, .context-menu, .megamenu-content, footer {
+	font-family: "PT Serif", 'Times New Roman', Times, serif;
+    color: #1f0909;
+}
+
+#megamenu-back-btn {
+	color: #1f0909;
+	border-color: #1f0909;
+}
+
+.megamenu-menu-header #megamenu-menu-header-title:before {
+	color: #1f0909;
+}
+
+.megamenu-menu-list li a:hover, .megamenu-menu-list li a.active {
+	color: inherit;
+	background-color: #e8e7df;
+}
+
+.long-btn:hover {
+	background-color: #e8e7df;
+}
+
+#recent-file-panel tbody tr:nth-child(2n-1) {
+    background-color: transparent !important;
+}
+
+.megamenu-menu-panel tbody tr:hover td:nth-child(2) {
+    color: inherit;
+}
+
+.megamenu-menu-panel .btn {
+	background-color: #D2D1D1;
+}
+
+.btn-default {
+	background-color: transparent;
+}
+
+.typora-sourceview-on #toggle-sourceview-btn,
+.ty-show-word-count #footer-word-count {
+	background: #c7c5c5;
+}
+
+#typora-quick-open {
+    background-color: inherit;
+}
+
+.md-diagram-panel {
+	margin-top: 8px;
+}
+
+.file-list-item-file-name {
+	font-weight: initial;
+}
+
+.file-list-item-summary {
+	opacity: 1;
+}
+
+.file-list-item {
+	color: #777;
+}
+
+.file-list-item.active {
+	background-color: inherit;
+	color: black;
+}
+
+.ty-side-sort-btn.active {
+	background-color: inherit;
+}
+
+.file-list-item.active .file-list-item-file-name  {
+	font-weight: bold;
+}
+
+.file-list-item{
+    opacity:1 !important;
+}
+
+.file-library-node.active>.file-node-background{
+	background-color: rgba(32, 43, 51, 0.63);
+	background-color: var(--active-file-bg-color);
+}
+
+.file-tree-node.active>.file-node-content{
+	color: white;
+	color: var(--active-file-text-color);
+}
+
+.md-task-list-item>input {
+	margin-left: -1.7em;
+	margin-top: calc(1rem - 12px);
+}
+
+input {
+	border: 1px solid #aaa;
+}
+
+.megamenu-menu-header #megamenu-menu-header-title,
+.megamenu-menu-header:hover, 
+.megamenu-menu-header:focus {
+	color: inherit;
+}
+
+.dropdown-menu .divider {
+	border-color: #e5e5e5;
+}
+
+/* https://github.com/typora/typora-issues/issues/2046 */
+.os-windows-7 strong,
+.os-windows-7 strong  {
+	font-weight: 760;
+}
+
+.ty-preferences .btn-default {
+	background: transparent;
+}
+
+.ty-preferences .window-header {
+	border-bottom: 1px dashed #202B33;
+	box-shadow: none;
+}
+
+
+</style>
+</head>
+<body class='typora-export' >
+<div  id='write'  class = 'is-node'><style>
+    p, ul, ol { margin: 0 0 .5rem 0; }
+    h1, h2, h3, h4, h5, h6 { margin-top: 1rem;}
+    h3:before {
+        content: '⇨';
+        padding-right: 0.25em;
+        position: relative;
+        top: -1px;
+    }
+    h1 strong {
+        font-size: 0.75em;
+        background: #ddd;
+        border-radius: 0.1rem;
+        padding: 0 0.25em;
+    }
+    #write { padding: 2rem 1rem; }
+    #write ul ul li {
+    	list-style: circle;
+	}
+    @page { size: A4; margin: 15mm; }
+    @media print {
+        html, body { font-size: 9pt; width: 210mm; height: 297mm; }
+        .typora-export,
+        .typora-export #write {
+            padding: 0!important;
+            margin: 0!important;
+        }
+        h1 { font-size: 2rem; }
+        h2, h3 { font-size: 1.15rem; }
+        p { line-height: 1.35; }
+        p:last-child {
+            margin-bottom: 0;
+        }
+        #write { padding: 0; }
+    }
+</style><h1><a name="sos---simple-oracle-system-versão-114" class="md-header-anchor"></a><span>S.O.S. - </span><em><span>Simple Oracle System</span></em><span> </span><strong><span>versão 1.14</span></strong></h1><p><span>Criado por </span><strong><span>Luiz Paulo “Bills”</span></strong><span> </span><span>&lt;</span><a href='mailto:luizpbills@gmail.com' target='_blank' class='url'>luizpbills@gmail.com</a><span>&gt;</span><span>. Este material está licenciado com uma Licença </span><a href='http://creativecommons.org/licenses/by-sa/4.0/'><span>Creative Commons Atribuição-CompartilhaIgual 4.0 Internacional</span></a><span>. Também disponibilizado em </span><a href='/simple-oracle-system.pdf'><span>PDF</span></a></p><h2><a name="porque-jogar-rpg-sozinho" class="md-header-anchor"></a><span>Porque jogar RPG sozinho?</span></h2><p><span>Motivos nunca vão faltar: seu mestre pode ficar indisponível, você pode testar alguma </span><em><span>build</span></em><span>, você pode experimentar um sistema novo... ou simplesmente você pode jogar para se distrair. É um ótimo passa-tempo.</span></p><h2><a name="jogando-rpg-sozinho" class="md-header-anchor"></a><span>Jogando RPG sozinho</span></h2><p><span>Para jogar RPG sozinho (ou </span><em><span>solo</span></em><span>), sem ter que seguir uma aventura pronta, você pode usar tabelas que </span><strong><span>“simulem”</span></strong><span> as escolhas do </span><em><span>narrador</span></em><span>. Essas tabelas são chamadas de </span><strong><span>Oráculos</span></strong><span>. Abaixo você vai encontrar vários </span><em><span>oráculos</span></em><span> para te auxiliar.</span></p><p><span>Para fazer as simulações você vai precisar apenas de 1D6 (um dado de seis lados). Já os testes e combates vão ser feitos usando o sistema de RPG que você quiser. Ou então, você pode usar o “mini-sistema” que é sugerido lá no final deste documento.</span></p><h3><a name="escolhendo-a-sua-missão" class="md-header-anchor"></a><span>Escolhendo a sua missão</span></h3><p><span>Jogue 2 vezes o seu D6.</span></p><ul><li><span>O primeiro resultado vai ser um valor da </span><strong><span>Tabela 4</span></strong><span> (logo abaixo);</span></li><li><span>O segundo resultado vai ser um valor da </span><strong><span>Tabela 5</span></strong><span>.</span></li></ul><p><span>Por exemplo, joguei duas vezes o dado e tirei 4 e 2. Nas tabelas os valores são, respectivamente, esses: </span><em><span>Examinar/Investigar e Montanhas</span></em><span>. Agora, você joga outras duas vezes o D6 para escolher um valor na </span><strong><span>Tabela 6</span></strong><span>. Por exemplo, tirando 4 e 6 o valor será: </span><em><span>Carne</span></em><span>. Assim, vou ter 3 palavras-chave para eu escolher qual será minha missão: </span><em><span>Examinar/Investigar, Montanhas e Carne</span></em><span>. Nesse caso, eu poderia dizer que minha missão é: </span><em><span>“</span><strong><span>Investigar</span></strong><span> o estranho caso das </span><strong><span>carnes</span></strong><span> que estão desaparecendo em um vilarejo nas </span><strong><span>montanhas</span></strong><span>”</span></em><span>.</span></p><p><span>Se preferir, você pode usar a </span><strong><span>Tabela 7</span></strong><span> no lugar da Tabela 6 ou então usar as duas juntas. Você também pode escolher ter mais de uma missão, nesse caso repita este processo quantas vezes quiser.</span></p><h3><a name="obtendo-respostas" class="md-header-anchor"></a><span>Obtendo respostas</span></h3><p><span>Não fique toda hora imaginando uma cena completa ou supondo muitas coisas. Pergunte ao oráculo e ele te responderá. Faça a si mesmo uma pergunta que pode ser respondia com “sim” ou com “não”. Então jogue 1D6 e consulte a </span><strong><span>Tabela 1</span></strong><span> para saber a resposta. Por exemplo, eu quero saber se está chovendo, então eu jogo 1D6 e tiro o número 6. Olhando na tabela, eu vejo significa que “sim”, está chovendo.</span></p><h3><a name="reviravoltas" class="md-header-anchor"></a><span>Reviravoltas</span></h3><p><strong><span>Sempre que você tirar 1 ou 6</span></strong><span> para obter uma </span><em><span>resposta simples</span></em><span>, você ganha 1 Ponto de Reviravolta (PR). Quando você juntar 3 PRs uma </span><strong><span>reviravolta</span></strong><span> vai acontecer na sua jornada. Nessa hora, você deve jogar outro D6 e consultar a </span><strong><span>Tabela 2</span></strong><span> para saber o que exatamente vai acontecer. Depois disso, você perde todos os seus PRs e começa a conta-los do zero novamente.</span></p><h3><a name="dicas" class="md-header-anchor"></a><span>Dicas</span></h3><p><span>Abaixo deixo algumas dicas para te ajudar a evitar pequenas coisas que podem te atrapalhar durante a sua sessão. </span></p><ul><li><strong><span>Deixe algumas coisas preparadas</span></strong><span>. Não perca tempo fazendo ficha dos monstros ou de NPCs durante a aventura. Deixe umas “fichas genéricas” previamente preparadas. Assim você não correrá o risco de ter que interromper a diversão para ter que desenvolver um NPC ou algum vilão.</span></li><li><strong><span>Nem tudo são rosas</span></strong><span>. Ás vezes você vai ficar sem inspiração para alguma cena ou </span><em><span>reviravolta</span></em><span> que S.O.S te deu. Quando isso acontecer, simplesmente ignore. Você não precisa seguir totalmente as tabelas, faça só quando te der vontade mesmo.</span></li><li><strong><span>“É perigoso ir sozinho”.</span></strong><span> Jogar sozinho as vezes pode ser “mortal”. Dificilmente um personagem sozinho consegue concluir missões muito difíceis, mesmo aquelas que não envolvem combates podem ser difíceis. Então sugiro que as vezes você jogue com mais um personagem, montando sua própria </span><em><span>party</span></em><span>. Mas se preferir, jogue sozinho mesmo. Não tem nada de errado em ser um </span><em><span>lobo solitário</span></em><span>.</span></li><li><strong><span>Expanda suas possibilidades.</span></strong><span> Depois confira este </span><a href='https://sos-rpg.surge.sh/tabelas-extras.pdf'><span>material com várias outras tabelas</span></a><span> (deixe para acessar depois).</span></li><li><strong><span>Participe do </span><a href='https://www.facebook.com/groups/187588152056870/'><span>grupo de RPG Solo</span></a><span> no Facebook.</span></strong><span> Venha trocar ideias, tirar dúvidas e compartilhar as aventuras que você viveu. </span></li></ul><div style="page-break-after: always;"></div><h2><a name="tabelas" class="md-header-anchor"></a><span>Tabelas</span></h2><h3><a name="tabela-1---respostas-simples" class="md-header-anchor"></a><span>Tabela 1 - Respostas simples</span></h3><p><span>Use esta tabela para obter respostas para perguntas que podem ser respondidas com “sim” ou com “não”. Por exemplo, você pergunta: </span><em><span>meu aventureiro vai começar em uma taverna?</span></em><span> Jogue 1D6 e descubra.</span></p><figure><table><thead><tr><th><span>1D6</span></th><th><span>Resposta</span></th></tr></thead><tbody><tr><td><span>6</span></td><td><span>Sim</span></td></tr><tr><td><span>5 ou 4</span></td><td><span>Sim, mas...</span></td></tr><tr><td><span>3</span></td><td><span>Não, mas...</span></td></tr><tr><td><span>2 ou 1</span></td><td><span>Não</span></td></tr></tbody></table></figure><ul><li><strong><span>Sim</span></strong><span> ou </span><strong><span>Não</span></strong><span> é uma resposta totalmente direta (o famoso “curto e grosso”).</span></li><li><strong><span>Sim, mas...</span></strong><span> significa que você tem uma resposta positiva </span><em><span>mas</span></em><span> algo que você não esperava também acontece.</span></li><li><strong><span>Não, mas...</span></strong><span> significa que você tem uma resposta negativa </span><em><span>mas</span></em><span> algo próximo do que você esperava acontece.</span></li></ul><h3><a name="tabela-2---reviravoltas" class="md-header-anchor"></a><span>Tabela 2 - Reviravoltas</span></h3><p><span>Use esta tabela para criar uma “ramificação” no rumo da sua aventura. </span></p><figure><table><thead><tr><th><span>Resultado</span></th><th><span>Tipo de Reviravolta</span></th></tr></thead><tbody><tr><td><span>6</span></td><td><span>Surge um encontro comum</span></td></tr><tr><td><span>5</span></td><td><span>Surge um encontro ameaçador</span></td></tr><tr><td><span>4</span></td><td><span>Surge um encontro neutro</span></td></tr><tr><td><span>3</span></td><td><span>Avanço de história</span></td></tr><tr><td><span>2</span></td><td><span>Retrocesso de história</span></td></tr><tr><td><span>1</span></td><td><span>Algo inesperado acontece</span></td></tr></tbody></table></figure><ul><li><p><strong><span>encontros</span></strong><span> podem significar a aparição de um ou vários indivíduos (ou fenômenos).</span></p><ul><li><strong><span>ameaçador</span></strong><span>: algo que te ameaça, como um animal selvagem ou outras criaturas hostis.</span></li><li><strong><span>comum</span></strong><span>: algo ou alguém que é comum de encontrar no lugar que você está, que pode ou não ser uma ameaça para você (decida por conta própria ou use a </span><strong><span>Tabela 3</span></strong><span>). </span></li><li><strong><span>neutro</span></strong><span>: algo que te desperta curiosidade. Por exemplo, um estranho encapuzado entrando na taverna.</span></li></ul></li><li><p><strong><span>Avanço na história</span></strong><span>: sua aventura avança, resolvendo assim a cena atual. Por exemplo, se você estava viajando você pode imaginar que sua viagem foi totalmente segura e que você chegou ao destino.</span></p></li><li><p><strong><span>Retrocesso na história</span></strong><span>: algo de uma cena anterior volta ser relevante na sua aventura. Por exemplo, você volta a ver o mesmo estranho encapuzado que viu entrando na taverna.</span></p></li><li><p><strong><span>Algo inesperado acontece</span></strong><span>: surge algo que você não esperava de forma alguma. Se você estiver sem inspiração, use alguma das outras tabelas para te ajudar a pensar em algo.</span></p></li></ul><h3><a name="tabela-3---atitude" class="md-header-anchor"></a><span>Tabela 3 - Atitude</span></h3><p><span>Use esta tabela apenas quando você estiver em dúvida de qual será a atitude de alguém ou de um grupo. Em certas situações, você não precisará dessa tabela. Por exemplo, se você estiver invadindo um covil de um dragão para roubar o tesouro dele, é quase certeza que ele vai ser “hostil” com você.</span></p><figure><table><thead><tr><th><span>Resultado</span></th><th><span>Atitude</span></th></tr></thead><tbody><tr><td><span>6 ou 5</span></td><td><span>Amigável</span></td></tr><tr><td><span>3 ou 4</span></td><td><span>Neutro</span></td></tr><tr><td><span>2 ou 1</span></td><td><span>Hostil</span></td></tr></tbody></table></figure><h3><a name="tabela-4---verbos" class="md-header-anchor"></a><span>Tabela 4 - Verbos</span></h3><figure><table><thead><tr><th><span>Resultado</span></th><th><span>Verbo</span></th></tr></thead><tbody><tr><td><span>6</span></td><td><span>Fazer/Construir</span></td></tr><tr><td><span>5</span></td><td><span>Roubar/Capturar</span></td></tr><tr><td><span>4</span></td><td><span>Examinar/Investigar</span></td></tr><tr><td><span>3</span></td><td><span>Convencer/Negociar</span></td></tr><tr><td><span>2</span></td><td><span>Exterminar/Combater</span></td></tr><tr><td><span>1</span></td><td><span>Resgatar/Recuperar</span></td></tr></tbody></table></figure><h3><a name="tabela-5---lugares" class="md-header-anchor"></a><span>Tabela 5 - Lugares</span></h3><p><span>Use esta tabela para saber o lugar que algo se encontra ou para onde você deve ir.</span></p><figure><table><thead><tr><th><span>Resultado</span></th><th><span>Lugar</span></th></tr></thead><tbody><tr><td><span>6</span></td><td><span>Floresta</span></td></tr><tr><td><span>5</span></td><td><span>Cidade</span></td></tr><tr><td><span>4</span></td><td><span>Praia/Litoral</span></td></tr><tr><td><span>3</span></td><td><span>Lago/Rio</span></td></tr><tr><td><span>2</span></td><td><span>Montanhas</span></td></tr><tr><td><span>1</span></td><td><span>Lugar deserto, isolado ou abandonado</span></td></tr></tbody></table></figure><h3><a name="tabela-6---objetos" class="md-header-anchor"></a><span>Tabela 6 - Objetos</span></h3><p><span>Para obter um resultado nessa tabela você joga duas vezes o seu D6. A primeira vez vai determinar qual coluna e a segunda vez vai determinar qual linha. Por exemplo, joguei D6 uma vez e tirei 3. A 3ª coluna tem: arma comum, arma exótica, luvas, etc... Jogo outra vez e tiro 6 e vejo qual é o 6º objeto na 3ª coluna. Meu resultado então foi “cinto”.</span></p><figure><table><thead><tr><th style='text-align:center;' ><span>2D</span></th><th style='text-align:center;' ><span>1</span></th><th style='text-align:center;' ><span>2</span></th><th style='text-align:center;' ><span>3</span></th><th style='text-align:center;' ><span>4</span></th><th style='text-align:center;' ><span>5</span></th><th style='text-align:center;' ><span>6</span></th></tr></thead><tbody><tr><td style='text-align:center;' ><span>1</span></td><td style='text-align:center;' ><span>Esfera</span></td><td style='text-align:center;' ><span>Anel</span></td><td style='text-align:center;' ><span>Arma Comum</span></td><td style='text-align:center;' ><span>Poção</span></td><td style='text-align:center;' ><span>Chifre</span></td><td style='text-align:center;' ><span>Pedra</span></td></tr><tr><td style='text-align:center;' ><span>2</span></td><td style='text-align:center;' ><span>Retângulo/Quadrado</span></td><td style='text-align:center;' ><span>Gema</span></td><td style='text-align:center;' ><span>Arma Exótica</span></td><td style='text-align:center;' ><span>Fruta/Verdura</span></td><td style='text-align:center;' ><span>Garra/Unha</span></td><td style='text-align:center;' ><span>Madeira</span></td></tr><tr><td style='text-align:center;' ><span>3</span></td><td style='text-align:center;' ><span>Circulo</span></td><td style='text-align:center;' ><span>Colar</span></td><td style='text-align:center;' ><span>Luvas/Manopla</span></td><td style='text-align:center;' ><span>Semente</span></td><td style='text-align:center;' ><span>Presa/Dente</span></td><td style='text-align:center;' ><span>Metal</span></td></tr><tr><td style='text-align:center;' ><span>4</span></td><td style='text-align:center;' ><span>Estrela</span></td><td style='text-align:center;' ><span>Brinco</span></td><td style='text-align:center;' ><span>Capa/Chapéu</span></td><td style='text-align:center;' ><span>Erva</span></td><td style='text-align:center;' ><span>Olho</span></td><td style='text-align:center;' ><span>Cerâmica</span></td></tr><tr><td style='text-align:center;' ><span>5</span></td><td style='text-align:center;' ><span>Triângulo</span></td><td style='text-align:center;' ><span>Pulseira</span></td><td style='text-align:center;' ><span>Óculos/Luneta</span></td><td style='text-align:center;' ><span>Pão/Bolo</span></td><td style='text-align:center;' ><span>Mão/Pata</span></td><td style='text-align:center;' ><span>Vidro/Cristal</span></td></tr><tr><td style='text-align:center;' ><span>6</span></td><td style='text-align:center;' ><span>Cone</span></td><td style='text-align:center;' ><span>Tiara/Coroa</span></td><td style='text-align:center;' ><span>Cinto</span></td><td style='text-align:center;' ><span>Carne</span></td><td style='text-align:center;' ><span>Cauda</span></td><td style='text-align:center;' ><span>Plástico/Tecido</span></td></tr></tbody></table></figure><h3><a name="tabela-7---criaturas" class="md-header-anchor"></a><span>Tabela 7 - Criaturas</span></h3><figure><table><thead><tr><th><span>2D</span></th><th><span>1</span></th><th><span>2</span></th><th><span>3</span></th><th><span>4</span></th><th><span>5</span></th><th><span>6</span></th></tr></thead><tbody><tr><td><span>1</span></td><td><span>Goblin/Kobold</span></td><td><span>Dragão</span></td><td><span>Elfo</span></td><td><span>Aranha</span></td><td><span>Lobo</span></td><td><span>Unicórnio</span></td></tr><tr><td><span>2</span></td><td><span>Golem</span></td><td><span>Mago Poderoso</span></td><td><span>Humano</span></td><td><span>Escorpião</span></td><td><span>Urso</span></td><td><span>Fênix</span></td></tr><tr><td><span>3</span></td><td><span>Orc/Gnow</span></td><td><span>Lich</span></td><td><span>Anão</span></td><td><span>Besouro</span></td><td><span>Pássaro</span></td><td><span>Fada</span></td></tr><tr><td><span>4</span></td><td><span>Esqueleto/Zumbi</span></td><td><span>Gigante</span></td><td><span>Gnomo</span></td><td><span>Centopeia</span></td><td><span>Cobra</span></td><td><span>Grifo</span></td></tr><tr><td><span>5</span></td><td><span>Naga</span></td><td><span>Hidra</span></td><td><span>Sereia</span></td><td><span>Lagosta</span></td><td><span>Peixe</span></td><td><span>Elemental</span></td></tr><tr><td><span>6</span></td><td><span>Ogro/Troll</span></td><td><span>Vampiro</span></td><td><span>Centauro</span></td><td><span>Borboleta</span></td><td><span>Javali</span></td><td><span>Ent</span></td></tr></tbody></table></figure><p><span>Essas tabelas maiores possuem 36 resultados possíveis e suas colunas estão organizadas com valores que pertencem a um mesmo grupo. Repare para você ver: na tabela de criaturas, a 1ª coluna são criaturas não tão poderosas, a 2ª são criaturas geralmente perigosas, a 3ª são apenas raças, a 4ª são pequenos invertebrados, a 5ª são animais comuns e a 6ª são criaturas exóticas. Assim, quando você estiver interessado em obter resultados apenas de uma coluna, jogue apenas 1D6 para escolher a linha. Por exemplo, se você achou um escudo com um desenho de um animal, apenas jogue 1D6 e escolha uma linha da 5ª coluna da tabela de criaturas para decidir qual animal que está no escudo. Você também pode fazer o mesmo processo com a tabela de objetos. Por exemplo, se você quiser saber a comida favorita do seu personagem, jogue 1D6 para escolher uma linha da 4ª coluna na tabela de objetos. E você ainda pode usar essas “tabelonas” para gerar vários resultados, ao invés de apenas um. Nesse caso, você vai gerar combinações de criaturas ou grupos mistos.</span></p><p><span>Outra dica: não descarte uma criatura por ela ser muito poderosa ou ser muito fraca para sua aventura. Por exemplo, o </span><em><span>Goblin</span></em><span> pode na verdade ser o “Rei dos Goblins”, um feiticeiro poderoso, ou </span><em><span>Dragão</span></em><span> pode ser apenas um filhote. </span></p><h2><a name="outros-cenários" class="md-header-anchor"></a><span>Outros cenários</span></h2><p><span>A </span><em><span>tabela de criaturas</span></em><span> pode fazer alguns pensar que o S.O.S é somente para mundos de </span><em><span>fantasia</span></em><span>. Mas isso não precisa ser verdade. Você pode adaptar facilmente as tabelas para que você possa usa-las em qualquer cenário que você quiser. Aliás, algumas tabelas já foram feitas para serem genéricas. Na tabela de objetos, por exemplo, tem um resultado que poder ser </span><em><span>Tecido ou Plástico</span></em><span> (plástico não costuma existir em mundos medievais, então usa-se tecido). Adiante darei dicas de como adaptar as outras tabelas.</span></p><h3><a name="lugares" class="md-header-anchor"></a><span>Lugares</span></h3><p><span>Em alguns cenários talvez não seja legal você ficar indo para florestas ou montanhas. Talvez simplesmente não tenha nada nesses lugares ou nem são mais de fácil acesso. Por exemplo, em cenários </span><em><span>cyberpunk</span></em><span> geralmente não existe nada além de deserto fora das cidades. Então, ao invés de usar a tabela para decidir um lugar, use-a para decidir uma região da cidade. Por exemplo, ao invés de </span><em><span>Praia</span></em><span> será </span><strong><span>Esgoto</span></strong><span>, </span><em><span>Montanhas</span></em><span> pode ser o </span><strong><span>Bairro Oriental</span></strong><span>, </span><em><span>Floresta</span></em><span> pode ser um </span><strong><span>Shopping</span></strong><span>, etc.</span></p><div style="page-break-after: always;"></div><h3><a name="criaturas" class="md-header-anchor"></a><span>Criaturas</span></h3><p><span>A tabela de criaturas está cheia de criaturas que podem não existir em muitos cenários. Para substituir aquelas criaturas, eu recomendo você criar uma tabela simples (com apenas 6 possibilidades). Por exemplo, se o seu cenário for mais “moderno”, você pode criar uma tabela com 6 profissões: cientista, engenheiro, médico, etc. Assim, suas missões podem ser algo como </span><em><span>investigar</span></em><span> (ou outro verbo) uma pessoa (ou várias) dessas profissões. Ou então, você pode escolher manter aquelas criaturas e encaixa-las no seu cenário. Por exemplo, você pode ser um caçador de criaturas sobrenaturais em um mundo mais realista.</span></p><h2><a name="sugestão-mini-sistema-de-rpg" class="md-header-anchor"></a><span>Sugestão: Mini-Sistema de RPG</span></h2><p><span>A Tabela 1 é usada toda vez que você quiser obter uma resposta simples sobre o rumo da aventura. Mas ela também pode ser usada como a base de um </span><em><span>Mini-Sistema de RPG</span></em><span>. Adiante vou explicar as regras desse mini-sistema.</span></p><h3><a name="criando-personagens" class="md-header-anchor"></a><span>Criando personagens</span></h3><p><span>Para criar um para criar um personagem, escolha o nome dele e outros detalhes, como aparência e idade. Além disso, escolha 3 características do personagem. Coisas como “usa machado”, “sabe mentir”, “tem laminas que saem das mãos”, etc. Essas características serão as </span><strong><span>Vantagens</span></strong><span> deste personagem.</span></p><h3><a name="realizando-ações" class="md-header-anchor"></a><span>Realizando ações</span></h3><p><span>Sempre que um personagem fizer algo que uma das suas </span><em><span>Vantagens</span></em><span> possa lhe ajudar, jogue 1D6+1 (um D6 e some 1 ao resultado) e use o valor final para consultar na </span><strong><span>Tabela 1</span></strong><span> se ele consegue ou não. Para outros tipos de ações, ele pode ou não receber um redutor: se for algo muito complicado (que exige anos de estudo ou prática), jogue 1D6−2; se for algo não tão complicado, jogue 1D6−1 e se for algo que todo mundo consegue fazer com um pouco sorte ou esforço, jogue apenas 1D6.</span></p><h3><a name="combates" class="md-header-anchor"></a><span>Combates</span></h3><p><span>Sistemas muito simples não conseguem simular muito bem os combates, por isso combates acabam sendo bem perigosos. Então prefira sempre evitar uma batalha. Mas quando acontecer, siga essas regras:</span></p><p><span>Um ataque é simplesmente uma pergunta como “consigo acertar o meu ataque?”. Role o dado (com o devido bônus, vistos anteriormente) e obtenha sua resposta na tabela abaixo:</span></p><figure><table><thead><tr><th><span>Resultado</span></th><th><span>Consegue Acertar o ataque?</span></th></tr></thead><tbody><tr><td><span>6 ou mais</span></td><td><span>Acerta e causa 3 ferimentos ao alvo.</span></td></tr><tr><td><span>5</span></td><td><span>Acerta </span><em><span>mas</span></em><span> causa 2 ferimentos apenas ao alvo.</span></td></tr><tr><td><span>4</span></td><td><span>Acerta de raspão, causando apenas 1 ferimento ao alvo (impossível de defender, veja adiante).</span></td></tr><tr><td><span>3 ou menos</span></td><td><span>Erra o ataque.</span></td></tr></tbody></table></figure><p><span>Personagens que possuem alguma forma de se proteger, podem jogar 1D6 (com o devido bônus) e consultar a tabela abaixo para saber se consegue ou não evitar um ataque contra ele. Exemplos de </span><strong><span>proteção</span></strong><span>: pele grossa, escudo, armadura, campo de força, rápido o bastante para esquivar, etc.</span></p><figure><table><thead><tr><th><span>Resultado</span></th><th><span>Consegue se proteger?</span></th></tr></thead><tbody><tr><td><span>6 ou mais</span></td><td><span>Evita o ataque e não sofre nenhum ferimento.</span></td></tr><tr><td><span>5 ou 4</span></td><td><span>Quase evita o ataque </span><em><span>mas</span></em><span> acaba sofrendo um ferimento.</span></td></tr><tr><td><span>3 ou menos</span></td><td><span>Não evita o ataque e sofre todos os ferimentos.</span></td></tr></tbody></table></figure><p><span>Quando um personagem receber cinco ferimentos (ou mais), ele morrerá ou ficará inconsciente (o que você preferir). E por fim, o tipo de cenário que vai definir como que um personagem faz para recuperar ferimentos. Como regra geral, após dormir bem um personagem vai recuperar 2 ferimentos. Mas em cenários de fantasia, pode existir magias que curam ou poções mágicas, por exemplo.</span></p><h3><a name="equipamentos" class="md-header-anchor"></a><span>Equipamentos</span></h3><p><em><span>Equipamentos</span></em><span> podem ajudar um personagem a se proteger ou atacar (dando +1 de bônus). Além disso, um equipamento também pode fornecer </span><em><span>Vantagens enquanto estiverem sendo usados</span></em><span>. Por exemplo, um binóculo pode dar o talento “enxergar mais longe” para quem está usando ele.</span></p><h3><a name="evolução-do-personagem" class="md-header-anchor"></a><span>Evolução do personagem</span></h3><p><span>Depois de completar algumas missões, um personagem pode “evoluir”. Ele então poderá adquirir </span><em><span>novas Vantagens</span></em><span> ou </span><em><span>aprimorar</span></em><span> uma das suas vantagens. Um personagem que tiver uma vantagem “aprimorada”, vai jogar 1D6+2 (ao invés de +1) ou aquela vantagem passa a oferecer algo extra (permitir que o personagem aguente mais ferimentos, por exemplo).</span></p><h3><a name="regras-opcionais" class="md-header-anchor"></a><span>Regras Opcionais</span></h3><p><span>As regras abaixo são opcionais, ou seja, você decide se quer ou não usa-las. E claro, recomendo que você também crie suas próprias regras.</span></p><ol start='' ><li><span>Personagens muito poderosos podem aguentar mais de 5 ferimentos e os muito fracos, aguentam menos.</span></li><li><span>Alguns equipamentos podem possuir uma “limitação” (funcionando somente em certas ocasiões ou necessitando de algum tipo combustível/energia/munição).</span></li><li><span>Além das </span><em><span>Vantagens</span></em><span>, um personagem pode ter uma ou mais </span><em><span>Desvantagens</span></em><span> (coisas que ele faz muito mal, fobias, traumas, doenças ou maldição). Toda vez que ele tentar fazer algo que uma desvantagem pode atrapalhar, você vai jogar 1D6−2.</span></li></ol></div>
+</body>
+</html>
